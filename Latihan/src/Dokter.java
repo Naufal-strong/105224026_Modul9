@@ -10,12 +10,12 @@ public class Dokter {
     // Association
     public void periksaPasien(Pasien pasien) {
 
-        System.out.println("==================================");
+        System.out.println("--------------------------------");
         System.out.println("Dokter        : " + nama);
         System.out.println("Spesialisasi  : " + spesialisasi);
         System.out.println("Memeriksa     : " + pasien.nama);
         System.out.println("Umur Pasien   : " + pasien.umur + " tahun");
-        System.out.println("==================================");
+        System.out.println("--------------------------------");
     }
 
     public void tampilkanDokter() {
